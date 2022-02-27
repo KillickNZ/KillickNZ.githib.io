@@ -1,32 +1,30 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className='bg-darkGrey' >
     <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+      className='flex flex-row justify-between items-center'
+    >    
+      <StaticImage
+      className='ml-3'
+      src="../images/TVC_D1WHOLESALERS_LOGO_FA-02.jpg"
+      width={300}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt="A Gatsby astronaut"
+      />
+      <h2 className=' my-auto mr-6'>
         <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+          
+          to="#contact"
+          className='text-white font-serif decoration-0'
         >
-          {siteTitle}
+          Contact
         </Link>
-      </h1>
+      </h2>
     </div>
   </header>
 )
