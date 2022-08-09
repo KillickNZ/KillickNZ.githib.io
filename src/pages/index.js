@@ -15,8 +15,7 @@ const IndexPage = () => {
         <p className='text-white text-center font-serif w-4/5 mx-auto'>
           D1 is a rider owned wholesale company dedicated to bringing you quality brands that the “others” have overlooked. Brands from the 3 other 
           corners of the globe that haven't made it down to ours. A break from the mainstream offerings, something new, something fresh, shit you 
-          see online, think damn I want that, only to find they dont ship to NZ, we intend to bridge that gap. - Bit of a ramble, typed as I thought
-          it, needs work? 
+          see online, think damn I want that, only to find they dont ship to NZ, we intend to bridge that gap.
         </p>
         <Brands />
 
