@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
-        className="bg-lightGrey font-sans min-h-screen flex-col justify-between"
+        className="bg-lightGray font-sans min-h-screen flex-col justify-between"
       >
         <main>{children}</main>
       </div>

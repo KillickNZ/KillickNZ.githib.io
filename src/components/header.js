@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
-  <header className='bg-darkGrey' >
+  <header className='bg-darkGray' >
     <div
       className='flex flex-row justify-between items-center'
     >    
